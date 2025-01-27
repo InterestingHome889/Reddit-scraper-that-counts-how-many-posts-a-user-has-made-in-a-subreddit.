@@ -27,3 +27,10 @@ You can modify the time by changing 'timedelta(days=30)' to a different number o
 5. The code goes through the posts, counts how many times each user has posted in the last 30 days (or how many days you set), and saves this data to a CSV (Excel) file named after the subreddit. For example, if you’re scraping learnpython, the file will be named `learnpython_user_post_counts.csv`
 
 Keep in mind that scraping too many posts in a short period of time could result in your account being flagged or banned by Reddit, ideally to NO MORE than 100–200 posts per request. It's important to set reasonable limits to avoid any issues with Reddit's API or community guidelines.
+
+## Disclaimer
+
+This script is for educational purposes only. By using this script, you agree that you are responsible for adhering to Reddit's terms of service and API usage guidelines. **Do not scrape or interact with Reddit in a manner that violates its terms of service**. Excessive scraping or misuse of the Reddit API could lead to your account being banned.
+
+Please use this script responsibly and avoid making requests that could overload Reddit’s servers.
+
